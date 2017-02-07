@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.os.OsMainActivity"
+    android:background="#000000" >
+
+    <Button
+        android:id="@+id/btnfcfs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="先進先做"
+        android:textColor="#FF5577" />
+
+    <Button
+        android:id="@+id/btnshort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnfcfs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="時間短先做"
+        android:textColor="#FF5577" />
+
+    <Button
+        android:id="@+id/btnpri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnshort"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="優先權"
+        android:textColor="#FF5577" />
+
+    <Button
+        android:id="@+id/btnend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnpri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="結束"
+        android:textColor="#FF5577" />
+
+</RelativeLayout>
